@@ -3,12 +3,15 @@
   overflow: hidden;
   position: relative;
 
+  .scrollViewStyle {
+    height: 400px;
+    overflow-y: scroll;
+  }
+
   .search {
     width: 100%;
     box-sizing: border-box;
     padding: 0 25rpx 0 10rpx;
-    position: fixed;
-    top: 0;
     z-index: 99;
     height: 80rpx;
     display: flex;

@@ -27,6 +27,7 @@ export default {
       }
     },
     "pages": [
+      "^pages/index/main",
       "pages/feedback/main",
       "pages/order/main",
       "pages/cart/main",
@@ -35,7 +36,6 @@ export default {
       "pages/addressSelect/main",
       "pages/addaddress/main",
       "pages/address/main",
-      "pages/index/main",
       "pages/search/main",
       "pages/my/main",
       "pages/login/main",
@@ -49,7 +49,7 @@ export default {
       "pages/newgoods/main",
       "pages/practice/main",
       "pages/topicdetail/main",
-      "^pages/myOrder/main"
+      "pages/myOrder/main"
     ],
     "window": {
       "backgroundTextStyle": "light",

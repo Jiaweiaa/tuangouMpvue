@@ -3,7 +3,7 @@
 		<van-tabs  tab-class="tabClass" :active="currentActive" @change="onChange">
 			<van-tab title-style="flex-basis: 20%;" :title="itemTab" :key="indexTab" v-for="(itemTab, indexTab) in tabs">
 				<view class="section">
-					<scroll-view scroll-y style="height: calc(100vh - 50px);" @scrolltoupper="upper" @scrolltolower="lower">
+					<scroll-view scroll-y class="scrollView" @scrolltolower="lower">
 						<div v-for="(value,index) in list" :key="index" @click="detailOrder(value)">
 							<div class='top border-bottom' style="overflow: hidden;">
 								<div style="height: 30px; line-height: 30px; font-size: 13px; width: 80%; float: left; margin-left: 10px; margin-top: 10px;">订单编号: {{value.code}}</div>
